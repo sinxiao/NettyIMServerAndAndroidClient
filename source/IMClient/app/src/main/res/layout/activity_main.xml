@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="im.xu.zhangjiang.panggu.cn.imclient.MainActivity">
+
+    <Button
+        android:id="@+id/btnReg"
+        android:text="Reg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:text="login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnSend"
+        android:text="Send"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnRev"
+        android:text="Rev"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/edttip"
+        android:scrollbars="vertical"
+        android:enabled="true"
+        android:editable="false"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="0px" />
+</LinearLayout>

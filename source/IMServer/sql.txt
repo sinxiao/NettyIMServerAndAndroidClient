@@ -1,0 +1,22 @@
+
+CREATE DATABASE `imdb` /*!40100 DEFAULT CHARACTER SET utf8 */;
+
+
+CREATE TABLE `immessage` (
+  `msgId` int(11) NOT NULL AUTO_INCREMENT,
+  `from` varchar(125) DEFAULT NULL,
+  `to` varchar(125) DEFAULT NULL,
+  `body` text,
+  `type` varchar(45) DEFAULT NULL,
+  `sendTime` varchar(45) DEFAULT NULL,
+  `readTiem` varchar(45) DEFAULT NULL,
+  PRIMARY KEY (`msgId`)
+) ENGINE=InnoDB AUTO_INCREMENT=16 DEFAULT CHARSET=utf8;
+
+CREATE TABLE `user` (
+  `uid` int(11) NOT NULL AUTO_INCREMENT,
+  `uname` varchar(125) DEFAULT NULL,
+  `nickname` varchar(125) DEFAULT NULL,
+  `pwd` varchar(256) DEFAULT NULL,
+  PRIMARY KEY (`uid`)
+) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8;
